@@ -17,14 +17,13 @@ header nav {
     height: 250px;
 }
 .card {
-    box-shadow: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5px;
     width: 180px;
-    height: 280px;
+    height: 500px;
 }
 .image-container {
     width: 130px;
