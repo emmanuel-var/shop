@@ -4,7 +4,7 @@
     align-items: center;
 }
 .card-presentation {
-    display: inline-block;
+    display: flex;
     height: 300px;
 }
 .card {
@@ -14,8 +14,17 @@
     padding: 5px;
 }
 .img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 250px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Extra-small devices-landscape phones */
 @media (min-width: 350px) {
