@@ -1,3 +1,8 @@
+button {
+    background-color: transparent;
+    border: transparent;
+    padding: 5px;
+}
 .title {
     display: flex;
     justify-content: center;
@@ -5,7 +10,7 @@
 }
 .card-presentation {
     display: flex;
-    height: 300px;
+    height: 250px;
 }
 .card {
     border: solid;
@@ -16,6 +21,11 @@
 .img {
     width: 200px;
     height: 250px;
+}
+.img:hover {
+    transform:scale(1.4);
+    filter: opacity(0.5);
+    transition: 2s;
 }
 .center {
     display: flex;
